@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Project Thailand`,
+    description: `Philip and Lori Bassham have been working in Bangkok, Thailand since early 2013 to preach the Gospel.`,
+    author: `@pbassham`,
   },
   plugins: [
+    "gatsby-plugin-theme-ui",
     `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-source-graphql-universal",
